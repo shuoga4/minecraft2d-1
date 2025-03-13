@@ -97,6 +97,7 @@ public class Window {
             glfwPollEvents();
             //次のチュートリアルで使うらしい。
 
+            //glClearColorに関してはループ外でも良い
             glClearColor(1.0f,0.0f,0.0f,1.0f);
             glClear(GL_COLOR_BUFFER_BIT);
             // これは、OpenGLに、どのようにバッファを消すかを指定できる。
